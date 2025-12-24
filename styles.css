@@ -1,0 +1,119 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111;
+}
+
+.magic-btn {
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(135deg, #000, #1a1a1a);
+  color: #fff;
+}
+
+#typewriter {
+  border-right: 3px solid rgba(255,255,255,0.7);
+  display: inline-block;
+  padding-right: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hero-sub {
+  opacity: 0.8;
+}
+
+/* Sections */
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: 700;
+}
+
+/* Skills */
+.skill-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+}
+
+.skill-card i {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* Projects Section */
+.project-card {
+  background: #111;
+  border-radius: 14px;
+  padding: 28px;
+  height: 100%;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+}
+
+.project-card h5 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.project-card ul {
+  padding-left: 18px;
+  margin-bottom: 16px;
+}
+
+.project-card ul li {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.project-card.highlight {
+  border: 1px solid rgba(255,193,7,0.4);
+}
+
+/* Resume */
+.resume-viewer {
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.resume-viewer embed {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #aaa;
+  padding: 25px 0;
+}
