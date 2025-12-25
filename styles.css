@@ -111,6 +111,22 @@ body {
   height: 100%;
 }
 
+/* Achievements Section */
+#achievements {
+  background: #f8f9fa;
+  color: #333;
+}
+
+#achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+#achievements ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
 /* Footer */
 .footer {
   background: #111;
